@@ -1,0 +1,21 @@
+{
+    "name": "hayes/manomano-api",
+    "description": "ManoMano API Client",
+    "type": "library",
+    "license": "Apache-2.0",
+	"homepage": "https://gitee.com/manonggongchang/manomano-api",
+    "authors": [{
+        "name": "hayes",
+        "email": ""
+    }],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ManoMano\\": "src/"
+        }
+    }
+}
